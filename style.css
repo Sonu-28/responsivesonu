@@ -1,0 +1,996 @@
+*, body{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --first-color: #ff8f9d; 
+    --gray: #777777;
+    --mwidth:90vw;
+}
+
+.header1{
+    margin: auto;
+    height: 5vh;
+    width: var(--mwidth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon i{
+    margin-right: 1vw;
+    color: var(--gray);
+}
+
+.header1 p{
+    color:var(--gray);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+select{
+    color: var(--gray);
+    border-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    color: rgba(216, 216, 216, 0.438);
+}
+
+.header2{
+    margin: auto;
+    height: 10vh;
+    width: var(--mwidth);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 h1{
+    color: var(--first-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search{
+    height: 5vh;
+    width: 40vw;
+    border-radius: 5px;
+}
+
+#icon2{
+    font-size: larger;
+}
+
+#icon2 i{
+    margin-left: 2vw;
+}
+
+#nav-bar{
+    position: fixed;
+    bottom: 0;
+    left: 15vw;
+    justify-content: space-around;
+    align-items: center;
+    width: 70vw;
+    background-color: aliceblue;
+    height: 7%;
+    display: none;
+}
+
+#nav-bar i{
+    color: rgb(20, 20, 20);
+}
+
+#menubar{
+    height: 10vh;
+    width: var(--mwidth);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+#menu2{
+    display: flex;
+    margin: auto;
+}
+
+#menu2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+
+#main-header{
+    height: 65vh;
+    width: var(--mwidth);
+    background-image: url("/images/banner-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+#banner1{
+    width: 25vw;
+    height: 50vh;
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 15vw;
+}    
+
+#banner1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: var(--first-color);
+    padding-top: 1vh;
+}
+
+#banner1 h1{
+    margin-top: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+#banner1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--gray);
+    margin-top: 1vh;
+}
+
+#banner1 button{
+    background-color: var(--first-color);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 1vh;
+}
+
+#flex-item{
+    width: var(--mwidth);
+    height: 15vh;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.items{
+    display: flex;
+    width: 20vw;
+    height: 8vh;
+    border: 1px solid ;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+img[alt="frock"]{
+    height: 3vh;
+    width: 2vw;
+    margin: auto;
+}
+
+#description{
+    margin-right: 5vw;
+}
+
+#description p{
+    color: var(--first-color);
+}
+
+.count{
+    position: absolute;
+    top: 1vh;
+    right: 1vw;
+}
+
+#mid{
+    display: flex;
+    width: var(--mwidth);
+    height: 250vh;
+    margin: auto;
+    margin-top: 2vh;
+    
+}
+#sidebar{
+    width: 25vw;
+    height: 115vh;
+    position: sticky;
+    height: max-content;
+    top: 10px;
+}
+
+#category{
+    height: 65vh;
+    width: 25vw;
+}
+
+#category h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--mwidth);
+}
+
+.clothes{
+    width: 25vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+    position: relative;
+}
+
+.clothes img{
+    position: absolute;
+    left: 0;
+}
+
+.clothes p{
+    position: absolute;
+    left: 20%;
+    font-size: larger;
+    font-weight: 2em;
+}
+
+.clothes h4{
+    position: absolute;
+    left: 90%;
+    font-size: 2em;
+    color: #5f5e5e;
+}
+
+#Bestsellers{
+    width: 25vw;
+    height: 50vh;
+}
+
+.best{
+    width: 25vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+img[alt="best"]{
+    height: 7vh;
+    width: 5vw;
+}
+
+.checked{
+    color: orange;
+}
+
+.description2 {
+    margin-left: 3vw;
+}
+.description2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: var(--gray);
+}
+
+
+.rate1{
+    text-decoration: line-through;
+    color: #777777;
+    font-size: 1em;
+}
+
+.rate2{
+    font-size: 1.25em;
+}
+
+#newproduct{
+    width: 90vw;
+    height: 150vh;
+}
+
+#product1{
+    width: 65vw;
+    height: 100vh;
+}
+
+#productsection1{
+    width: 65vw;
+    height: 60vh;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.sec1{
+    width: 20vw;
+    height: 60vh;
+}
+
+.sec1 h3{
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid var(--gray);
+    padding-bottom: 1vh;
+    margin-bottom: 3vh;
+}
+
+
+
+.product{
+    display: flex;
+    height: 10vh;
+    width: 20vw;
+    border: 1px solid var(--gray);
+    margin-top: 2vh;
+    align-items: center;
+    justify-content:space-around;
+    border-radius: 5px;
+}
+
+
+img[alt="clothes"]{
+    height: 9vh;
+    width: 5vw;
+}
+
+#price{
+    display: flex;
+}
+
+.rate3{
+    font-weight: bold;
+    color: var(--first-color);
+    margin-right: 1vh;
+
+}
+
+.rate4{
+    color: var(--gray);
+    text-decoration:line-through;
+}
+
+#deal{
+    width: 65vw;
+    height: 70vh;
+}
+
+#deal h3{
+    border-bottom: 1px solid var(--gray);
+}
+
+#shampoo{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+}
+
+#shampoo img{
+    height: 60vh;
+    width: 30vw;
+}
+
+#description4{
+    width: 35vw;
+    height: 40vh;
+}
+
+#price1{
+   display: flex;
+   margin-top: 1vh;
+}
+
+#newrate{
+    color: var(--first-color);
+    font-weight: bold;
+    margin-right: 1vh;
+}
+
+#oldrate{
+    color: var(--gray);
+    text-decoration: line-through;
+}
+
+#available{
+    margin-right: 2vw;
+}
+
+#description4 button{
+    height: 5vh;
+    width: 10vw;
+    margin-top: 1vh;
+    background-color: var(--first-color);
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#itemleft{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#bar{
+    width: 33vw;
+    height: 1vh;
+    background-color: var(--gray);
+    border-radius: 5px;
+    margin-bottom: 2vh;
+}
+
+#smallbar{
+    width: 11vw;
+    height: 1vh;
+    background-color: var(--first-color);
+    border-radius: 5px;
+}
+
+#time1{
+    height: 5vh;
+    width: 3vw;
+    background-color: #ededed ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#time{
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1vh;
+}
+
+#time1 h4{
+    font-size: 0.8em;
+}
+#time1 p{
+    font-size: 0.8em;
+}
+
+#newproduct{
+    width: 65vw;
+}
+
+.productbox{
+    width: 65vw;
+}
+
+#newproduct h2{
+    border-bottom: 1px solid var(--gray);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#productitem{
+    width: 15vw;
+    height: 35vh;
+    border: 1px solid var(--gray);
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+img[alt="jacket"]{
+    height: 20vh;
+    width: 10vw;
+    margin: auto;
+}
+
+#description5{
+    height: 20vh;
+    width: 10vw;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+#description5 h4{
+    color: var(--first-color);
+}
+
+#description5 p{
+    margin-top: 1vh;
+}
+
+#rating{
+    margin-top: 1vh;
+}
+.price2{
+    display: flex;
+}
+
+#rate4{
+    font-weight: bold;
+    color: black;
+}
+
+#rate5{
+    color: var(--gray);
+    text-decoration: line-through;
+    margin-left: 1vh;
+}
+
+
+.productbox{
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mid2{
+    height: 60vh;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside{
+    width: 22vw;
+    height: 60vh;
+}
+
+.aside h3{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid var(--gray);
+}
+
+img[alt="cta-banner"]{
+    width: 40vw;
+    height: 60vh;
+}
+#test{
+    width: 22vw;
+    height: 50vh;
+    border: 1px solid var(--gray);
+    margin-top: 5vh;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#test h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vh;
+}
+
+#test p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vh;
+}
+
+img[alt="Testimonial"]{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+    margin-top: 2vh;
+}
+
+img[alt="quote"]{
+    width: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#banner{
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banneritem{
+    width: 21vw;
+    height: 50vh;
+    margin-top: 3vh;
+}
+
+img[alt="blog1"]{
+    width: 21vw;
+    height: 25vh;
+}
+
+footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #212121 ;
+    padding-top: 5vh;
+}
+
+#directory{
+    width: 90vw;
+    margin: auto;
+    height: 30vh;
+}
+
+#directory h3{
+    color: #de8a95;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+
+}
+
+#directory1 p{
+    color: #777777;
+    margin-top: 2vh;
+    word-spacing: 0.2em;
+}
+
+#directory2{
+    width: 90vw;
+    margin: auto;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#directory3 h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid var(--first-color);
+    margin-bottom: 2vh;
+}
+
+#popular p{
+    color: #777777;
+    margin-top: 1vh;
+}
+
+#payment{
+    height: 10vh;
+    width: 90vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 1vh;
+}
+
+#payment p{
+    color: #777777;
+    font-size: 1em;
+    margin-top: 1vh;
+}
+
+.banneritem h4{
+    color: var(--first-color);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1vh;
+}
+
+.banneritem p{
+    color: var(--gray);
+    margin-top: 1vh;
+}
+
+@media (max-width: 480px) {
+    
+    .header1{
+        width: 100%;
+    }
+
+
+    #icon2{
+        display: none;
+    }
+    
+    #currandlang{
+        display: none;
+    }
+  
+    #nav-bar{
+        width: 100%;
+        left: 0;
+    }
+    
+    #menubar{
+        display: none;
+    }
+
+    .header2{
+        height: 14vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #search{
+        width: 90vw;
+        height: 5vh;
+    }
+
+    #mainheader{
+        width: 100%;
+        height: 50vh;
+    }
+
+    #banner1{
+        margin-top: 20vh;
+        width: 100%;
+        margin-left: 1vh;
+    }
+
+    #banner1 h3{
+        font-size: 1.8em;
+    }
+    
+    #banner1 h1{
+        font-size: 4em;
+    }
+    
+    #banner1 p{
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--gray);
+        margin-top: 1vh;
+    }
+    
+    #banner1 button{
+        height: 7vh;
+        width: 30vw;
+    }
+
+    #itemhidden1{
+        display: none;
+    }
+
+    #part1{
+        width: 90vw;
+    }
+
+    img[alt="frock"]{
+        height: 5vh;
+        width: 8vw;
+    }
+    
+    #description{
+        margin-right: 15vw;
+    }
+    
+    #description p{
+        color: var(--first-color);
+    }
+    
+    .count{
+        right: 2vw;
+    }
+    
+    .sec1{
+        width: 90vw;
+    }
+    
+    #deal{
+        width: 100%;
+        height: 120vh;
+    }
+
+    #shampoo{
+        height: fit-content;
+        flex-direction: column;
+    }
+    
+    #description4{
+        width: 80vw;
+        height: 50vh;
+    }
+    
+    #description4 button{
+        width: 30vw;
+    }
+    
+    #mid{
+        height: 360vh;
+    }
+    
+    #productitem{
+        width: 50vw;
+    }
+    #mid2{
+       display: none;
+    }
+    
+    #directory{
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    #directory2{
+        flex-direction: column;
+        height: 120vh;
+        justify-content:left ;
+        margin: 0;
+    }
+
+    footer{
+        height: 190vh;
+    }
+
+    #blog3{
+        display: none;
+    }
+    
+    #banner{
+       width: 90vw;
+       height: 60vh;
+    }
+
+    .banneritem{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    img[alt="blog1"]{
+        width: 90vw;
+    }
+}
+
+@media  (max-width: 1200px){
+    #icon{
+        display: none;
+    }
+    
+    #icon2{
+        display: none;
+    }
+
+    #nav-bar{
+        display: flex;
+    }
+
+    #sidebar{
+        display: none;
+    }
+
+    #product{
+        width: 90vw;
+        height: fit-content;
+    }
+
+    .sec1{
+        width: 40%;
+    }
+    
+    #newproduct{
+        width: 90vw;
+        height: fit-content;
+    }
+    
+
+    #productsection1{
+        width: 90vw;
+        height: fit-content;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #deal{
+        width: 90vw;
+        height: 60vh;
+    }
+
+    #description4{
+        margin-top: 1vh;
+        width: 35;
+    }
+
+    #shampoo img{
+        height: 45vh;
+        width: 30vw;
+    }
+
+    #time1{
+        height: 3vh;
+        width: 4vw;
+    }
+
+    .product{
+        width: 38vw;
+    }
+
+    img[alt="clothes"]{
+        height: 7vh;
+        width: 7vw;
+    }
+
+    .productbox{
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+     
+    #productitem{
+        width: 30vw;
+        height: 35vh
+    }
+    
+    img[alt="jacket"]{
+        height: 20vh;
+        width: 20vw;
+        margin: auto;
+    }
+    
+    #description5{
+        height: 25vh;
+        width: 15vw;
+        margin: auto;
+        margin-top: 2vh
+    } 
+    
+    #mid2{
+        margin-top: 150vh;
+        flex-direction: column;
+    }
+
+    .aside{
+        width: 30vw;
+        height: 60vh;
+    }
+    
+    .aside h3{
+        margin-top: 2vh;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 1px solid var(--gray);
+    }
+    
+    img[alt="cta-banner"]{
+        width: 90vw;
+        height: 50vh;
+    }
+    #test{
+        width: 50vw;
+        height: 45vh;
+        margin-left: 15vw;
+    }
+    
+    #test h4{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1vh;
+    }
+    
+    #test p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 1vh;
+    }
+    
+    img[alt="Testimonial"]{
+        width: 25vw;
+        height: 20vh;
+        border-radius: 50%;
+        margin-top: 2vh;
+    }
+    
+    #banner{
+        margin-top: 92vh;
+    }
+
+    .banneritem{
+        width: 40vw;
+    }
+
+    #blog2{
+        display: none;
+    }
+
+    img[alt="blog1"]{
+        width: 40vw;
+    }
+    
+    #itemhidden{
+        display: none;
+    }
+
+    .items{
+        width: 40vw;
+    }
+    
+    img[alt="frock"]{
+        width: 5vw;
+        height: 5vh;
+    }
+}
+
